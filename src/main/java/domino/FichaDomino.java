@@ -66,6 +66,7 @@ public class FichaDomino {
     //metodo de clase que genere fichas aleatorias
     public static FichaDomino aleatoria() {
         Random rd = new Random();
-        return new FichaDomino(rd.nextInt(6) + 1, rd.nextInt(6) + 1);
+        //return new FichaDomino(rd.nextInt(6) + 1, rd.nextInt(6) + 1);
+        return new FichaDomino(rd.nextInt(7), rd.nextInt(7));
     }
 }
